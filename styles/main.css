@@ -1,0 +1,962 @@
+/* ----- Starter ----- */
+
+@font-face 
+{
+    font-family: 'Ailerons';
+    src: url('../styles/font/Ailerons-Typeface.otf');
+}
+
+
+html, body 
+{
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+*
+{
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+/* ----- Starter kit text and elements ----- */
+
+h1
+{
+    font-size: 4em;
+    font-family: 'Ailerons';
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+h2
+{
+    font-family: 'Ailerons';
+    font-size: 1.8em;
+    color: #0097CA;
+}
+
+h2 span
+{
+    font-size: 14px;
+}
+
+p
+{
+    line-height: 1.5em;
+    font-size: 1.3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    color: black;
+    -webkit-font-smoothing: subpixel-antialiased; 
+}
+
+.subtitle
+{
+    color: white;
+}
+
+.button
+{
+    border-radius: 30px;
+    padding: 5px 40px 5px 40px;
+    background-color: black;
+    color: white;
+}
+
+.button:hover
+{
+    background-color: #0097CA;
+}
+
+.line
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 10px;
+    border-bottom: 1px solid #0097CA;;
+}
+
+.line-black
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 30%;
+    height: 10px;
+    border-bottom: 1px solid black;
+}
+
+/* ----- Header ----- */
+
+#wrapper 
+{
+	position: relative;
+	overflow: hidden;
+}
+
+.main
+{
+  height:100vh;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+      -ms-flex-align:center;
+          align-items:center;
+  background: url('../images/background/Architecture21.jpg');
+  webkit-background-size: cover;
+  -moz-background-size: cover;
+  o-background-size: cover;
+  background-size: cover;
+}
+
+.container
+{
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+  /*max-width: 980px;*/
+}
+
+/*.fullscreen-video-wrap
+{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video
+{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay
+{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+}*/
+
+.inner-content
+{
+    z-index:2;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+}
+
+.inner-content h2
+{
+    color: white;
+}
+
+/* ----- Citation ----- */
+
+.experiencies
+{
+    /*margin: 3%;*/
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+#citation
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 80vh;
+    background: url(../images/background/Architecture23.jpg) no-repeat center center;
+    background-size: cover;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    /*margin: 3%;*/
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: 5% 0 5% 0;
+}
+
+.citation-text
+{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+/* ----- Description ----- */
+
+#description
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 500px;
+}
+
+.bg-photo-description
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 50%;
+    /*margin: 3%;*/
+    background: url(../images/background/Architecture7.jpg) no-repeat center center; 
+    background-size: cover;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.description-inner-content
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    color: black;
+    background-color: white;
+}
+
+.element-description
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+
+
+/* ----- School ----- */
+
+#school
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 5%;
+    /*padding: 3%;*/
+}
+
+.half-box
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 500px;
+    width: 50%;
+}
+
+.box3, .box4
+{
+    margin-top: 8%;
+    background-color: #bfbfbf;
+}
+
+.box1, .box4
+{
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: white;
+    padding: 30px 0 30px 0;
+
+}
+
+.box2
+{
+    background: url(../images/background/Architecture17.jpg) no-repeat center center; 
+    background-size: cover;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.box3
+{
+    background: url(../images/background/Architecture10.jpg) no-repeat center center; 
+    background-size: cover;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.date
+{
+    width: 35%;
+    padding-left: 3%;
+}
+
+.school-text
+{
+    width: 65%;
+    padding-left: 5%;
+}
+
+
+/* ----- Project ----- */
+
+#project
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+.title-project
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #0097CA), color-stop(0, #fbfbfb), color-stop(89%, #fbfbfb), color-stop(0, #000));
+    background-image: -webkit-linear-gradient(top, #0097CA 100%, #fbfbfb 0, #fbfbfb 89%, #000 0);
+    background-image: -o-linear-gradient(top, #0097CA 100%, #fbfbfb 0, #fbfbfb 89%, #000 0);
+    background-image: linear-gradient(180deg, #0097CA 100%, #fbfbfb 0, #fbfbfb 89%, #000 0);
+}
+
+.title-project h1
+{
+    max-height: 20px;
+}
+
+.title-project p
+{
+    color: white;
+}
+
+.project-box
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(16%, #0097CA), color-stop(0, #fbfbfb), color-stop(89%, #fbfbfb), color-stop(0, #000));
+    background-image: -webkit-linear-gradient(top, #0097CA 16%, #fbfbfb 0, #fbfbfb 89%, #000 0);
+    background-image: -o-linear-gradient(top, #0097CA 16%, #fbfbfb 0, #fbfbfb 89%, #000 0);
+    background-image: linear-gradient(180deg, #0097CA 16%, #fbfbfb 0, #fbfbfb 89%, #000 0);
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 10% 0 5% 0;
+}
+
+.project-box > div
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-size: cover;
+    position: relative;
+}
+
+.project-box > p span
+{
+    margin-top: 5px;
+}
+
+.project-box1, .project-box4, .project-box5
+{
+    min-width: 50vw;
+    min-height: 34vw;
+}
+
+.project-box2, .project-box3, .project-box6
+{
+    min-height: 34vw;
+    min-width: 34vw;
+}
+
+.project-box1
+{
+    background: url(../images/background/Project-Bym.png) no-repeat center center;    
+}
+
+.project-box2
+{
+    background: url(../images/background/Danone.png) no-repeat; 
+}
+
+.project-box3
+{
+    background: url(../images/background/Etam.png) no-repeat; 
+}
+
+.project-box4
+{
+    background: url(../images/background/HATVP.png) no-repeat center center; 
+}
+
+.project-box5
+{
+    background: url(../images/background/Frequence-Banque.png) no-repeat; 
+}
+
+.project-box6
+{
+    background: url(../images/background/Pole-Emploi.png) no-repeat center center; 
+}
+
+.project-box > div:hover .overlay
+{
+    height: 100%;
+    border: 1px solid black;
+}
+
+.animation
+{
+    height: 100%;
+    border: 1px solid black;
+}
+
+.overlay
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #0097CA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0.95;
+}
+
+.text-project
+{ 
+  font-weight: lighter;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text-project h2
+{
+    font-size: 2em;
+    color: white;
+    width: 100%;
+}
+
+.text-project span
+{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.text-project p
+{
+    font-size: 16px;
+    color: white;
+}
+
+/* ----- Skills ----- */
+
+.skills
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    background-color: black;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.title-skills
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: white;
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    background-color: black;
+}
+
+.skills-content
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 350px;
+    width: 100%;
+    padding: 5% 0 5% 0;
+}
+
+.skills-content > div
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 25%;
+    padding: 1%;
+    text-align: center;
+}
+
+.skills-content p
+{
+    color: white;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 auto;
+            flex: 1 0 auto;
+}
+
+.skills-content li
+{
+    font-size: 2em;
+}
+
+/* ----- Contact ----- */
+
+footer
+{
+    text-align: center;
+    background-color: #0097CA;
+    padding: 5% 0 5% 0;
+}
+
+.title-project
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.icons
+{
+    padding-top: 30px;
+}
+
+#footer ul
+{
+    margin: 0 0 2em 0;
+}
+
+footer a 
+{
+    color: rgba(255, 255, 255, 0.75);
+    color: black;
+}
+
+footer a:hover 
+{
+    color: black;
+}
+
+ul.icons 
+{
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.icons li 
+{
+    display: inline-block;
+    padding: 0 1em 0 0;
+}
+
+ul.icons li:last-child 
+{
+    padding-right: 0;
+}
+
+ul.icons li .fab:before, ul.icons li .fas:before 
+{
+    font-size: 1.5em;
+}
+
+.fab, .fas
+{
+    text-decoration: none;
+    border-bottom: none;
+    position: relative;
+    text-decoration: none !important;
+    font-size: 1.3em;
+    color: white;
+}
+
+.credits
+{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+}
+
+.credits p
+{
+    font-size: 1em;
+}
+
+
+/* ----- Media Queries ----- */
+
+@media(min-width:760px)
+{
+  
+}
+
+@media(max-width:760px)
+{
+    h1, .subtitle
+    {
+        font-size: 1.4em;
+        font-family: 'Ailerons';
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+
+    h2
+    {
+        font-family: 'Ailerons';
+        font-size: 1.1em;
+        line-height: 1.5em;
+        color: #0097CA;
+        font-weight: 500;
+    }
+    
+    .text-project h2
+    {
+        color: white;
+        font-size: 1.1em;
+        font-weight: 500;
+    }
+    
+    h2 span
+    {
+        font-size: 14px;
+    }
+
+    p
+    {
+        line-height: 1.5em;
+        font-size: 14px;
+        font-family: 'Lato', sans-serif;
+        font-weight: lighter;
+        color: black;
+        font-weight: 500;
+    }
+    
+    .text-project h2
+    {
+    
+    }
+
+    .text-project span
+    {
+        font-family: 'Lato', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        width: 100%;
+    }
+
+    .text-project p
+    {
+        font-size: 14px;
+        color: white;
+    }
+    
+    .main
+    {
+        height: 70vh;
+    }
+    
+    #citation
+    {
+        height: 60vw;
+        margin: 0%;
+    }
+    
+    .citation-text
+    {
+        padding: 0 5% 0 5%;
+    }
+    
+    #description
+    {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        min-height: 0px;
+    }
+    
+    .bg-photo-description
+    {
+        height: 60vw;
+        -webkit-box-shadow: 0 0 0 0px;
+                box-shadow: 0 0 0 0px;
+    }
+    
+    .element-description
+    {
+        padding: 5% 20px 5% 20px;
+    }
+    
+    .bg-photo-description, .description-inner-content
+    {
+        width: 100%;
+    }
+    
+    #school
+    {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    #school > div
+    {
+        -webkit-box-shadow: 0 0 0 0px;
+                box-shadow: 0 0 0 0px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .school-text
+    {
+        padding-right: 20px;
+    }
+    
+    
+    .half-box
+    {
+        width: 100%;
+        min-height: 0px;
+    }
+    
+    .box2
+    {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        height: 60vw;;
+    }
+    
+    .box1
+    {
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2;
+    }
+    
+    .box3
+    {
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3;
+        height: 60vw;
+    }
+    
+    .box4
+    {
+        -webkit-box-ordinal-group: 5;
+            -ms-flex-order: 4;
+                order: 4;
+    }
+    
+    .box1, .box4
+    {
+        width: 90%;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .box3, .box4
+    {
+        margin-top: 0%;
+    }
+    
+    .arrow img
+    {
+        width: 30px;
+        height: 30px;
+    }
+    
+    #project .title-project
+    {
+        height: 15vh;
+    }
+    
+    .project-box
+    {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    
+    .project-box > div
+    {
+        min-height: 60vw;
+    }
+    
+    .skills-content
+    {
+        min-height: 0px;
+    }
+    
+    .skills-content > div
+    {
+        width: 33.33%;
+        padding: 5%;
+    }
+    
+    .credits p
+    {
+        text-align: center;
+        font-size: 10px
+    }
+    
+}
+
+@media(max-width:400px)
+{
+    h2
+    {
+        font-size: 1em;
+    }
+    
+    .project-box > div
+    {
+        min-height: 85vw;
+    }
+    
+    p
+    {
+        font-size: 12px;
+    }
+}
