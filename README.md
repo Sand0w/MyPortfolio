@@ -1,8 +1,10 @@
 # My Personnal Portfolio 🚀
 
+
+
 ## Description
 
-This is my personnal portfolio, feel free to take a look 😎
+This is my personnal portfolio. it contains informations about me and also few of my projects I have done, feel free to take a look 😎
 
 ## Built with 👨🏻‍💻
 
