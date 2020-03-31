@@ -55,6 +55,23 @@ $('#modal-options-3').iziModal({
   iframeURL: 'https://www.easyvoyage.com'
 });
 
+$(document).on('click', '.open-options-Atos', function(event) {
+  event.preventDefault();
+  $('#modal-options-4').iziModal('open');
+});
+
+$('#modal-options-4').iziModal({
+  headerColor: '#0097CA',
+  overlayColor: 'rgba(0, 0, 0, 0.5)',
+  fullscreen: true,
+  transitionIn: 'fadeInUp',
+  transitionOut: 'fadeOutDown',
+  iframe: true,
+  iframeHeight: 600,
+  width: 600,
+  iframeURL: 'https://atos.net'
+});
+
 /*$(document).on('click', '.open-options-4', function(event) {
   event.preventDefault();
   $('#modal-options-2').iziModal('open');
