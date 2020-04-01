@@ -8,7 +8,7 @@ This is my personal portfolio. It contains informations about me and also few of
 
 ## Built with 👨🏻‍💻
 
-* Built from scratch with HTML, CSS, Javascript and love.
+* Built from scratch with HTML, CSS, Javascript and Love.
 
 ## Librairies 📚
 
