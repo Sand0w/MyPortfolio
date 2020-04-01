@@ -1,4 +1,4 @@
-# My Personnal Portfolio 🚀
+# My Personal Portfolio 🚀
 
 
 
