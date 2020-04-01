@@ -21,5 +21,7 @@ This is my personnal portfolio. it contains informations about me and also few o
 * [Unsplash](https://unsplash.com/)
 * [Pexels](https://www.pexels.com/fr-fr/) 
 
+## Portfolio Preview
 
+![](/images/thumbnail/thumbnail.png)
 
